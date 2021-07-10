@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url(../img/concrete-1840731_1920.jpg);
+  width: 100%;
+  height: 730px;
+  background-position: center;
+  background-size: cover;
+	background-color:rgba(255,255,255,0.2);
+	background-blend-mode:lighten;
+}
+
+.container {
+  display: none;
+  width: 100%;
+  margin:0 auto;
+  position: relative;
+  top: 4%;
+}
+
+#content {
+  width: 40%;
+  height: 540px;
+  margin: auto;
+  background-color: #F9F9F9;
+
+}
+
+#outer {
+  width: 50%;
+  margin: auto;
+}
+
+h2 {
+  font-weight: bold;
+  text-align: center;
+  margin: 30px;
+  color: #333333;
+  font-family: 'klee','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+}
+
+td, th {
+	padding: 10px;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+}
+
+table {
+	margin: 60px 150px;
+  border-collapse:collapse;
+  border-radius: 30px;
+  border-bottom: solid 1px #DDD;
+  box-shadow: 0px 0px 5px;
+}
+
+/* tr:nth-child(even) {
+  background-color: #EEE;
+  color: #333333;
+} */
+
+tr {
+  border-top: solid 1px #DDD;
+  background-color: #F5F5F3;
+  color: #333333;
+}
+

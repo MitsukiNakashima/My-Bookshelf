@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "../Controllers"
+	},
+	{
+		"path": "."
+	},
+	{
+		"path": "../public"
+	},
+	{
+		"path": "../Views"
+	}
+]
+}

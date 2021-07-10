@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 10px 0;
+}
+
+.navbar .nav {
+  list-style-type: none;
+  padding: 0 50px;
+  margin: 10px 0;
+  border-left: solid 1px #333333;
+  font-size: 15px;
+}
+
+.nav a {
+ text-decoration: none;
+ color: #333333;
+ font-weight: bold;
+ font-family: 'klee','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+}
+
+.nav:last-child {
+  border-right: solid 1px #333333;
+}
+
+.nav a:hover {
+  color: #A1D6E2;
+}

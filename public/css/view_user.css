@@ -1,0 +1,97 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url(../img/concrete-1840731_1920.jpg);
+  width: 100%;
+  height: 730px;
+  background-position: center;
+  background-size: cover;
+	background-color:rgba(255,255,255,0.2);
+	background-blend-mode:lighten;
+}
+
+.container {
+  display: none;
+  width: 100%;
+  margin:0 auto;
+  position: relative;
+  top: 4%;
+}
+
+#content {
+  width: 40%;
+  height: 540px;
+  margin: auto;
+  border-radius: 30px;
+  background-color: #F9F9F9;
+  box-shadow: 0px 0px 5px;
+}
+
+#outer {
+  width: 50%;
+  margin: auto;
+}
+
+#outer #subtitle {
+  text-align: center;
+  font-family: 'Herculanum','Comic Sans MS',sans-serif;
+  font-size: 22px;
+  color:#73705F;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.label {
+  width: 40%;
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color:#73705F;
+  font-family: 'klee','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+}
+
+.label label {
+  margin: 5px;
+}
+
+#confirm p {
+  text-align: center;
+  font-size: 15px;
+  font-family: 'klee','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+  color:#73705F;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.info p {
+  width: 90%;
+  padding: 5px;
+  margin: 0px 10px 40px 10px;
+  text-align: center;
+  border-bottom: solid 1px #73705F;
+  font-family: 'klee','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+  color: #333333;
+}
+
+#edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#edit a {
+  margin: 5px;
+  width: 50%;
+  height: 35px;
+  font-family: 'klee','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+  border: solid 1px #73705F;
+  border-radius: 5px;
+  background-color: #73705F;
+  color: #F9F9F9;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 7px;
+}

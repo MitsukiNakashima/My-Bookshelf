@@ -1,0 +1,196 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url(../img/concrete-1840731_1920.jpg);
+  width: 100%;
+  height: 730px;
+  background-position: center;
+  background-size: cover;
+	background-color:rgba(255,255,255,0.2);
+	background-blend-mode:lighten;
+  margin: 0;
+}
+
+.container {
+  width: 950px;
+  display: none;
+  margin:0 auto;
+  position: relative;
+  top: 8%;
+}
+
+#content {
+  height: 550px;
+  margin: auto;
+  border-radius: 30px;
+  background-color: #F9F9F9;
+  box-shadow: 0px 0px 5px;
+}
+
+#form {
+  width: 90%;
+  margin: auto;
+}
+
+#form h3 {
+  text-align: center;
+  font-family: 'klee','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+  font-size: 22px;
+  color:#73705F;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  height: 180px;
+}
+
+.img {
+  width: 200px;
+}
+
+.box .img img{
+  width: 120px;
+  height: 150px;
+  background-color: #FFD700;
+  margin-left: 80px;
+}
+
+.box p,img {
+  width: 90%;
+  font-family: 'klee','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+  color:#73705F;
+  margin: 20px 0;
+}
+
+.outer {
+  width: 350px;
+}
+
+.outer p,.date,.input {
+  margin-left: 60px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.author {
+  font-size: 13px;
+}
+
+.input {
+  width: 70%;
+}
+
+.input input {
+  width: 100%;
+  height: 25px;
+  margin: 5px 0;
+  padding: 0;
+  border: 1px solid #73705F;
+  border-radius: 5px;
+}
+
+.label_evaluation {
+  width: 232px;
+  margin: 0px 30px;
+  font-size: 12px;
+  font-weight: bold;
+  color:#73705F;
+  font-family: 'klee','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+}
+
+.evaluation {
+  width: 200px;
+  height: 35px;
+  margin: 5px 30px;
+  border: 1px solid #73705F;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #FFD700;
+}
+
+.label_recommend {
+  width: 300px;
+  margin: 5px 30px;
+  font-size: 12px;
+  font-weight: bold;
+  color:#73705F;
+  font-family: 'klee','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+}
+
+.recommend {
+  width: 300px;
+  height: 35px;
+  margin: 0px 30px;
+  border: 1px solid #73705F;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: 'klee','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+}
+
+#submit {
+  width: 286px;
+  margin: auto;
+}
+
+#submit button {
+  width: 100%;
+  height: 35px;
+  margin: 15px 0;
+  font-family: 'klee','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+  color:#F9F9F9;
+  font-size: 15px;
+  border: 1px solid #73705F;
+  border-radius: 5px;
+  background-color: #73705F;
+}
+
+.label {
+  width: 288px;
+  font-size: 12px;
+  font-weight: bold;
+  color:#73705F;
+  font-family: 'klee','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+}
+
+textarea {
+  border-radius: 5px;
+  border: solid 1px #73705F;
+  margin: 0px 30px 0px 30px;
+  resize: none;
+  /* padding: 15px 15px 0px 15px; */
+  width: 350px;
+  height: 150px;
+}
+
+.outer2 textarea {
+  height: 150px;
+}
+
+::placeholder {
+  color:#73705F;
+  font-family: 'klee','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+}
+
+.share {
+  width: 900px;
+  margin-left: 35px;
+}
+
+.share label {
+  color:#73705F;
+  font-family: 'klee','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+}
+
+

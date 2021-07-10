@@ -1,0 +1,194 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url(../img/concrete-1840731_1920.jpg);
+  width: 100%;
+  height: 730px;
+  background-position: center;
+  background-size: cover;
+	background-color:rgba(255,255,255,0.2);
+	background-color:rgba(255,255,255,0.2);
+	background-blend-mode:lighten;
+}
+
+.box {
+  margin: 60px 0;
+}
+
+.img {
+  width: 150px;
+  height: 200px;
+  background-color: #E3E1D5;
+  margin: auto;
+}
+
+.img img {
+  width: 150px;
+  height: 200px;
+}
+
+.summary {
+  width: 250px;
+  height: 120px;
+  overflow: scroll;
+  margin: auto;
+  font-size: 12px;
+  color: #73705F;
+  margin-top: 20px;
+}
+
+.inner_box {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.star {
+  width: 30px;
+  color:darkgray;
+  font-size: 25px;
+  border: none;
+  background-color: transparent;
+}
+
+.clicked {
+  width: 30px;
+  color: #FFCC33;
+  font-size: 25px;
+  border: none;
+  background-color: transparent;
+}
+
+.favorite {
+  height: 50px;
+  margin: 15px;
+  display: flex;
+  align-items: center;  
+}
+
+.check {
+  height: 30px;
+  width: 250px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.check a {
+  border: none;
+  background-color: transparent;
+}
+
+.register_book a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+.register_book {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 50px;
+  border: solid 1px #73705F;
+  background-color: #73705F;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+.container {
+  /* display: none; */
+  width: 70%;
+  margin:0 auto;
+  position: relative;
+  top: 5%;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 540px;
+  /* margin: 0; */
+  border-radius: 30px;
+  background-color: #F9F9F9;
+  box-shadow: 0px 0px 5px;
+}
+
+#outer {
+  width: 60%;
+  margin: 30px 0;
+}
+
+#outer #subtitle {
+  text-align: center;
+  font-family: 'klee','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+  font-size: 22px;
+  color:#73705F;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.label {
+  width: 70%;
+  margin: auto;
+  padding-top: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  color:#73705F;
+  font-family: 'klee','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+}
+
+.label label {
+  margin: 5px;
+}
+
+#confirm p {
+  text-align: center;
+  font-size: 15px;
+  font-family: 'klee','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+  color:#73705F;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.info {
+  width: 70%;
+  margin: auto;
+  border-bottom: solid 1px #73705F;
+}
+
+.info p {
+  width: 100%;
+  margin: 0px 10px;
+  text-align: center;
+  font-family: 'klee','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+  color: #333333;
+}
+
+#url {
+  font-size: 15px;
+  width: 70%;
+  margin: auto;
+  border-bottom: solid 1px #73705F;
+}
+
+#url a {
+  margin: auto;
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-family: 'klee','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+  text-decoration: none;
+}

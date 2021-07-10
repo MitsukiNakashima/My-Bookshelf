@@ -1,0 +1,163 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #E8E8E8;
+  width: 100%;
+  height: 730px;
+}
+
+.background {
+  background-image: url(../img/concrete-1840731_1920.jpg);
+  background-position: center;
+  background-size: cover;
+	background-color:rgba(255,255,255,0.2);
+	background-blend-mode:lighten;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+#search-text {
+  background-color: #A1D6E2;
+  opacity: 0.9;
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 50px;
+}
+
+#search-text::placeholder {
+  text-align: center;
+}
+
+#submit {
+  width: 20px;
+  border: none;
+  background-color: transparent;
+  background-position: center;
+  background-size: auto 90%;
+  background-repeat: no-repeat;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+form button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+.logo2 {
+  width: 50%;
+  margin: 0 auto;
+  /* padding-top: 2%; */
+  /* padding-bottom: 5%; */
+}
+
+.logo2 p, h1 {
+  text-align: center;
+  margin: 0;
+  z-index: 2;
+  color: #333333;
+}
+
+.logo2 h1 {
+  font-family: 'Herculanum','Comic Sans MS',sans-serif;
+  font-size: 50px;
+
+}
+
+.logo2 p {
+  font-family: 'Herculanum','Comic Sans MS',sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  height:150px;
+  margin: auto;
+}
+
+.book2 {
+  position: relative;
+  left: 10%;
+  top: 10%;
+  opacity: 0.7;
+}
+
+.book {
+  position: relative;
+  right: 10%;
+  top: 10%;
+  opacity: 0.7;
+}
+
+.box{
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px 40px;
+}
+
+.inner {
+  width: 300px;
+  height: 500px;
+  margin: 10px;
+  padding: 10px;
+  background: rgba(225, 225, 225, 0.6);
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px 2px grey;
+}
+
+.info {
+  margin: 0 10px; 
+  border-bottom: dotted 1px #73705F;
+}
+
+.image {
+  width: 100px;
+  height: 150px;
+  margin: auto;
+ }
+
+.other {
+  width: 280px;
+  height: 52px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+}
+
+.info label {
+  font-family: 'klee','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #73705F;
+  /* border-bottom: solid 1px #73705F; */
+}
+
+.info p {
+  margin: 5px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.impre p{
+  height: 100px;
+  overflow: scroll;
+}
+
+.num {
+  display: flex;
+  justify-content: center;
+  color: #808080;
+}
